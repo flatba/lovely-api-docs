@@ -1,0 +1,7 @@
+AuthUserFile /app/.htpasswd
+AuthType Basic
+AuthName "Restricted Access"
+Require valid-user
+<Files ~ "^(public\.html)$">
+deny from all
+</Files>

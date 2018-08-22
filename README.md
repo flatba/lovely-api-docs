@@ -1,6 +1,6 @@
 # Lovely api documentation
 
-
+https://hip-lovely-api-docs.herokuapp.com/
 
 ## Setup
 
@@ -15,6 +15,10 @@ npm install -g aglio
 * main.md から、各リソースグループごとのmdをincludeしてる
 * リソースごとというよりは、機能単位ごとにファイルを分けよう。
 
+group/app下のファイルをそれぞれ編集する
+書き方のフォーマットがあるみたい。
+https://apiblueprint.org/
+
 ```
 aglio -i main.md -s
 ```
@@ -25,7 +29,7 @@ aglio -i main.md -s
 ## HTML変換
 
 ```
-mkdir -p out
-aglio -i main.md -o out/index.html
+mkdir -p public
+aglio -i main.md -o public/index.html
 ```
 
