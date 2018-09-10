@@ -25,7 +25,7 @@ aglio -i main.md -s
 ## HTML変換
 
 ```
-mkdir -p out
-aglio -i main.md -o out/index.html
+mkdir -p public
+aglio -i main.md -o public/index.html
 ```
 
