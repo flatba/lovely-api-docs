@@ -15,6 +15,10 @@ npm install -g aglio
 * main.md から、各リソースグループごとのmdをincludeしてる
 * リソースごとというよりは、機能単位ごとにファイルを分けよう。
 
+group/app下のファイルをそれぞれ編集する
+書き方のフォーマットがあるみたい。
+https://apiblueprint.org/
+
 ```
 aglio -i main.md -s
 ```
