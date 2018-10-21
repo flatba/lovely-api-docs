@@ -1,8 +1,8 @@
 # Lovely api documentation
 
-ID "lovely"
-password "lovely0519"
-https://hip-lovely-api-docs.herokuapp.com/
+- ID "lovely"
+- password "lovely0519"
+- https://hip-lovely-api-docs.herokuapp.com/
 
 ## Setup
 
