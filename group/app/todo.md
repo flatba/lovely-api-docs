@@ -2,14 +2,6 @@ FORMAT: 1A
 
 # Group 【APP】todo
 
-## 取得 [GET /api/v1/todos/:id]
-
-    todoの取得
-
-+ Response 200 (text/plain)
-
-        Hello World!
-
 ## 登録 [POST /api/v1/todos/:id]
 
     todoの取得
@@ -22,9 +14,8 @@ FORMAT: 1A
 
     todo一覧の取得
 
-+ Response 200 (text/plain)
++ Response 200 (text/json)
 
-## Example Response
 ```json
 {
     "success": true,
