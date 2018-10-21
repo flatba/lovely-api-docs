@@ -2,3 +2,4 @@ AuthUserFile /app/.htpasswd
 AuthType Basic
 AuthName "Restricted Access"
 Require valid-user
+<Files public/index.html>
