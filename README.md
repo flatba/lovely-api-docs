@@ -1,7 +1,7 @@
 # Lovely api documentation
 
-- ID "lovely"
-- password "lovely0519"
+- ID: lovely
+- password: lovely(リリース日4桁数字)
 - https://hip-lovely-api-docs.herokuapp.com/
 
 ## Setup
