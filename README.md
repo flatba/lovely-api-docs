@@ -30,8 +30,9 @@ aglio -i main.md -s
 
 ## HTML変換
 
+Markdownのファイルを編集したら、下記のコマンドを実行して、htmlファイルを生成してgithubにpushする。
+
 ```
-mkdir -p public
 aglio -i main.md -o public/index.html
 ```
 
